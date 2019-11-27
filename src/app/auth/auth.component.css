@@ -1,0 +1,29 @@
+.out{
+    position: absolute; top: 40px; left: 1600px;
+}
+.set{
+    position: absolute; top: 80px; left: 800px;
+}
+.svg{
+    position: absolute;
+    top:60px;
+    left:1100px;
+    width: 40%;
+}
+@media screen and (max-width: 1024px) {
+    .out{
+        position: absolute; top: 40px; left: 700px;
+    }
+    .svg{
+        position: absolute;
+        top:200px;
+        left:290px;
+        width: 40%;
+    }
+    .set{
+        position: absolute;
+        top:80px;
+        left:350px;
+    }
+
+  }

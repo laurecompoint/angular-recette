@@ -1,0 +1,17 @@
+
+<div class="d-flex flex-column float-right">
+   
+  <h3 class="mr-5 mt-5">Top Recipes</h3>
+  <div class="card w-75 mt-5 module" style="margin-left: 40px" *ngFor="let recipe of recipes">
+    <div class="card-body">
+      <a  class="col-1-4"
+         routerLink="/detail/{{recipe.id}}">
+        <div class=" recipes">
+          <h4>{{recipe.name}}</h4>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+<app-recipe-search></app-recipe-search>
+

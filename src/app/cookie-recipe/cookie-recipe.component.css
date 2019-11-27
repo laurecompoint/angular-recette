@@ -1,0 +1,27 @@
+.svg{
+    position: absolute;
+    top: 300px;
+    left: 1200px;
+  }
+  @media screen and (max-width: 1024px) {
+    
+    .svg{
+        position: absolute;
+        top:200px;
+        left:390px;
+        width: 40%;
+    }
+   
+
+  }
+  @media screen and (max-width: 425px) {
+    
+    .svg{
+        position: absolute;
+        top:300px;
+        left:190px;
+        width: 40%;
+    }
+   
+
+  }
